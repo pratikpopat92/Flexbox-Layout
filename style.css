@@ -1,0 +1,74 @@
+body{
+  display: flex;
+  flex-direction: column;
+}
+.head-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.head-item{
+  width: 100vw;
+  height: 15vh;
+  background-color: grey;
+  border-radius: 20px;
+}
+h4{
+  text-align: center;
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  background-color: beige;
+  border-radius: 20px;
+  margin: 5px;
+}
+.nav-item{
+  margin:5px;
+  padding:5px;
+  /* width: 25%; */
+  height:30px;
+  background-color: grey;
+  border-radius: 20px;
+  text-align: center;
+}
+.card-container{
+  display: flex;
+  justify-content: space-between;
+  border-radius: 20px;
+  margin:5px;
+}
+.card{
+  width:25%;
+  margin:5px;
+  padding:5px;
+  text-align: center;
+  background-color: grey;
+  height:150px;
+  border-radius: 20px;
+}
+.testimonial-container{
+  display: flex;
+  justify-content: center;
+  background-color: grey;
+  border-radius: 20px;
+}
+.card-container-1{
+  display: flex;
+  justify-content: space-between;
+  border-radius: 20px;
+  margin:5px;
+  overflow-x: auto;
+}
+.card-1{
+  width:50%;
+  margin:5px;
+  padding:5px;
+  text-align: center;
+  background-color: grey;
+  height:150px;
+  border-radius: 20px;
+}
+p{
+  text-align: center;
+}
